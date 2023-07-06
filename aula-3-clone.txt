@@ -1,0 +1,57 @@
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+PC com vários discos:
+
+• cd /d E: (ou o disco que for)
+• dir
+
+Ir navegando assim para acessar o diretório em que deseja salvar o clone.
+
+• ctrl + l
+
+Limpa o console.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+Da aula 3 do curso.
+
+No repositório:
+• botão Code (em destaque)
+• https blablabla .git
+
+No terminal:
+• navegar para o diretório desejado (cd desktop, por exemplo)
+• git clone [ctrl + v (o .git copiado do github)]
+
+Projeto clonado.
+
+• cd [nome do diretório do projeto]
+• git log
+
+Mostra várias informações sobre os commits.
+Ficam dois pontos (:) ao final. Clicar (q) para sair.
+
+• git log --oneline
+
+Mostra só as descrições e o identificador interno dos commits.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+• git pull [.git]
+
+Puxa novamente o repositório, mas só atualiza os arquivos que estiverem diferentes → que foram atualizados em commits posteriores ao que você clonou.
+
+• git status
+
+Mostra as alterações que você fez no repositório.
+
+• git commit [diretório ou arquivo desejado] -m "[descrição (message) do commit]"
+
+Faz um commit localmente. A origem (repositório na nuvem, no GitHub) não é alterada.
+
+• git push [branch (o nome da padrão é 'main')]
+
+Envia seus commits locais para a origem.
