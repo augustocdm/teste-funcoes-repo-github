@@ -1,6 +1,8 @@
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
 x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
+https://phoenixnap.com/kb/cmd-commands#ftoc-heading-6
+
 PC com vários discos:
 
 • cd /d E: (ou o disco que for)
@@ -64,6 +66,6 @@ Mostra as alterações que você fez no repositório.
 
 Faz um commit localmente. A origem (repositório na nuvem, no GitHub) não é alterada.
 
-• git push [branch (o nome da padrão é 'main')]
+• git push origin [branch (o nome da padrão é 'main')]
 
 Envia seus commits locais para a origem.
