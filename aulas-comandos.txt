@@ -17,20 +17,6 @@ Limpa o console.
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
 x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-https://docs.gitlab.com/ee/gitlab-basics/add-file.html
-
-Na aula não foi criado nenhum arquivo; somente foram modificados uns já existentes.
-No link acima achei o código que precisava rodar para conseguir dar o commit:
-
-• git add [nome do arquivo]
-
-Depois também precisei dizer que conta do GitHub é a minha. Mas isso o console mesmo disse como fazer.
-
-=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
-x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
-
-Da aula 3 do curso.
-
 No repositório:
 • botão Code (em destaque)
 • https blablabla .git
@@ -64,6 +50,10 @@ Quando há diferenças, elas aparecerão. No editor online do GitHub, pode-se ve
 
 Mostra as alterações que você fez no repositório.
 
+• git add [nome do arquivo]
+
+Adiciona arquivos a serem commitados.
+
 • git commit [diretório ou arquivo desejado] -m "[descrição (message) do commit]"
 
 Faz um commit localmente. A origem (repositório na nuvem, no GitHub) não é alterada.
@@ -78,3 +68,28 @@ x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 • git restore --source [hash] [arquivo desejado; '.' seleciona todos]
 
 Volta para a versão (commit) desejada.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+• git checkout -b [nome da branch]
+
+Cria uma branch e a acessa.
+Para que a branch apareça no GitHub, é necessário dar algum commit nela.
+
+• git switch [nome da branch]
+
+Acessa qualquer branch existente.
+
+• git branch
+
+Mostra as branches do repositório e destaca aquela em que você está.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+• git merge [nome da branch a ser unida àquela em que você está]
+
+Une a branch declarada à que você está. Para unir a 'desenvolvimento' à 'main', portanto, é necessário antes executar um 'git switch main'.
+
+Ainda será necessário executar um 'git push origin main' – cuidar, portanto, em todas estas etapas, as branches referenciadas nos comandos.
