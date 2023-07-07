@@ -1,1 +1,80 @@
-XDXDXDXDXDXDXDXDXDXDXDXD
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+https://phoenixnap.com/kb/cmd-commands#ftoc-heading-6
+
+PC com vários discos:
+
+• cd /d E: (ou o disco que for)
+• dir
+
+Ir navegando assim para acessar o diretório em que deseja salvar o clone.
+
+• ctrl + l
+
+Limpa o console.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+https://docs.gitlab.com/ee/gitlab-basics/add-file.html
+
+Na aula não foi criado nenhum arquivo; somente foram modificados uns já existentes.
+No link acima achei o código que precisava rodar para conseguir dar o commit:
+
+• git add [nome do arquivo]
+
+Depois também precisei dizer que conta do GitHub é a minha. Mas isso o console mesmo disse como fazer.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+Da aula 3 do curso.
+
+No repositório:
+• botão Code (em destaque)
+• https blablabla .git
+
+No terminal:
+• navegar para o diretório desejado (cd desktop, por exemplo)
+• git clone [ctrl + v (o .git copiado do github)]
+
+Projeto clonado.
+
+• cd [nome do diretório do projeto]
+• git log
+
+Mostra várias informações sobre os commits.
+Ficam dois pontos (:) ao final. Clicar (q) para sair.
+
+• git log --oneline
+
+Mostra só as descrições e o identificador interno dos commits.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+• git pull [.git]
+
+Puxa novamente o repositório, mas só atualiza os arquivos que estiverem diferentes → que foram atualizados em commits posteriores ao que você clonou.
+
+Quando há diferenças, elas aparecerão. No editor online do GitHub, pode-se ver as diferenças pintadas de outra cor. É o que se chama 'diff'.
+
+• git status
+
+Mostra as alterações que você fez no repositório.
+
+• git commit [diretório ou arquivo desejado] -m "[descrição (message) do commit]"
+
+Faz um commit localmente. A origem (repositório na nuvem, no GitHub) não é alterada.
+
+• git push origin [branch (o nome da padrão é 'main')]
+
+Envia seus commits locais para a origem.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=
+x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+• git restore --source [hash] [arquivo desejado; '.' seleciona todos]
+
+Volta para a versão (commit) desejada.
