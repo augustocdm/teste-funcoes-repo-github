@@ -58,6 +58,8 @@ x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
 Puxa novamente o repositório, mas só atualiza os arquivos que estiverem diferentes → que foram atualizados em commits posteriores ao que você clonou.
 
+Quando há diferenças, elas aparecerão. No editor online do GitHub, pode-se ver as diferenças pintadas de outra cor. É o que se chama 'diff'.
+
 • git status
 
 Mostra as alterações que você fez no repositório.
